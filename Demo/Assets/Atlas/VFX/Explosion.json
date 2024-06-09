@@ -1,0 +1,12 @@
+{
+    "texture": "Explosion.dat",
+    "geometry": {
+        "rowCount": 4,
+        "colCount": 4,
+        "width": 64,
+        "height": 64
+    },
+    "parts": [
+        {"name": "Explosion", "frames": [2,3,4,5,6,7,8,9,10,11,12,13,14,15]}
+    ]
+}

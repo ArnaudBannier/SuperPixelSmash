@@ -1,0 +1,12 @@
+{
+    "texture": "Golem_arm.dat",
+    "geometry": {
+        "rowCount": 1,
+        "colCount": 6,
+        "width": 37,
+        "height": 16
+    },
+    "parts": [
+        {"name": "Glowing", "frames": [0,1,2,3,4,5]}
+    ]
+}

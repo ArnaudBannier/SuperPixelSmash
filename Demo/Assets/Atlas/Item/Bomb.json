@@ -1,0 +1,13 @@
+{
+    "texture": "Bomb.dat",
+    "geometry": {
+        "rowCount": 1,
+        "colCount": 6,
+        "width": 18,
+        "height": 18
+    },
+    "parts": [
+        {"name": "BombCharging", "frames": [0,1,2,3]},
+        {"name": "BombDanger", "frames": [4,4,5]}
+    ]
+}

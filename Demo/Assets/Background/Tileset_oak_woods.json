@@ -1,0 +1,43 @@
+{
+    "texture": "Tileset_oak_woods.dat",
+    "geometry": {
+        "rowCount": 10,
+        "colCount": 19,
+        "width": 24,
+        "height": 24,
+        "padding": 1,
+        "spacing": 2
+    },
+    "parts": [
+        {
+            "name": "FloorA",
+            "frames": [
+                0, 1, 2, 3,
+                4, 5, 6, 7,
+                8, 9, 10, 11, 12,
+                39, 40
+            ]
+        },
+        {
+            "name": "FloorB",
+            "frames": [
+                23, 24,25, 26,
+                42, 43, 44, 45,
+                46, 47, 48, 49, 50
+            ]
+        },
+        { "name": "LSlopeA", "frames": [32, 13, 14] },
+        { "name": "RSlopeA", "frames": [15, 16, 35] },
+        { "name": "LSlopeB", "frames": [70, 51, 52] },
+        { "name": "RSlopeB", "frames": [53, 54, 73] },
+        { "name": "LWallAB", "frames": [19, 38]},
+        { "name": "RWallAB", "frames": [22, 41]},
+        { "name": "GroundAB", "frames": [20] },
+        { "name": "GroundA1", "frames": [20,95,96,95,96,78,79,97,98,99,99,82,83,101,102,123] },
+        { "name": "GroundA2", "frames": [20,95,96,95,96,78,79,97,98,81,81,84,85,103,104,123] },
+        { "name": "GroundA3", "frames": [20,95,96,95,96,78,79,97,98,100,100,84,85,103,104,123] },
+        { "name": "GroundB", "frames": [20,114,115,133,134,116,117,135,136,118,137,120,121,139,140,142] },
+        { "name": "CeilAB", "frames": [57,58,59,6067,68,69] },
+        { "name": "ColumnB", "frames": [17,36,55,74] }
+    ]
+}

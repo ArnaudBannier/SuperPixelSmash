@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\GameObject">
+      <UniqueIdentifier>{5bea2b69-95cb-43dd-98ec-f6cf9faa3947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GameObject\UI">
+      <UniqueIdentifier>{38f75102-bed8-42c0-95c6-800fbfb7e3d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GameObject\UI\Title">
+      <UniqueIdentifier>{e645b1e3-6249-40c7-93b0-133391080234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GameObject\UI\Stage">
+      <UniqueIdentifier>{08a6ef7b-f2a8-428e-8a53-55862febc77b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GameObject\UI\CustomDefault">
+      <UniqueIdentifier>{3f092ab2-4fcb-444b-beb1-93822e7fa8be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GameObject\GameBody">
+      <UniqueIdentifier>{dee18917-812a-4c27-a585-f2af7a6d96c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GameObject\GameBody\Stage">
+      <UniqueIdentifier>{0afad97f-3a7a-440e-b4b3-7daa4d7f2fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GameObject\GameBody\Fighter">
+      <UniqueIdentifier>{1a920321-d37c-45ee-9016-f220ef812a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GameObject\GameBody\Item">
+      <UniqueIdentifier>{dbc67618-9141-41e4-9cbf-ab8927723a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GameObject\GameBody\Utils">
+      <UniqueIdentifier>{50c22e3f-cc2d-4262-a4b8-05a110e9b83b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GameObject\Camera">
+      <UniqueIdentifier>{d3ab6d77-405a-48e0-acc6-f9d43e8ac51d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GameObject\Other">
+      <UniqueIdentifier>{0615ba0f-3374-4e6a-a58b-785da1a7f15c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Input">
+      <UniqueIdentifier>{f2bc65aa-eb3e-442c-8d22-4adbb1648525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\SceneManager">
+      <UniqueIdentifier>{c122df6b-f18a-405b-806e-9d0f4c23311f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Common">
+      <UniqueIdentifier>{9f7f57a1-c744-4a8c-95c1-ca3cf54b6c7c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ApplicationInput.cpp">
+      <Filter>Fichiers sources\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlsInput.cpp">
+      <Filter>Fichiers sources\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseInput.cpp">
+      <Filter>Fichiers sources\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MainCamera.cpp">
+      <Filter>Fichiers sources\GameObject\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugInput.cpp">
+      <Filter>Fichiers sources\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPauseMenu.cpp">
+      <Filter>Fichiers sources\GameObject\UI\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="UIStageHUD.cpp">
+      <Filter>Fichiers sources\GameObject\UI\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCamera.cpp">
+      <Filter>Fichiers sources\GameObject\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Fichiers sources\GameObject\GameBody\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Fichiers sources\GameObject\GameBody\Fighter</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Fichiers sources\GameObject\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="FireWarrior.cpp">
+      <Filter>Fichiers sources\GameObject\GameBody\Fighter</Filter>
+    </ClCompile>
+    <ClCompile Include="UIStagePage.cpp">
+      <Filter>Fichiers sources\GameObject\UI\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="StageManager.cpp">
+      <Filter>Fichiers sources\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleManager.cpp">
+      <Filter>Fichiers sources\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UITextList.cpp">
+      <Filter>Fichiers sources\GameObject\UI\CustomDefault</Filter>
+    </ClCompile>
+    <ClCompile Include="UITitlePage.cpp">
+      <Filter>Fichiers sources\GameObject\UI\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDefaultButton.cpp">
+      <Filter>Fichiers sources\GameObject\UI\CustomDefault</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDefaultCursor.cpp">
+      <Filter>Fichiers sources\GameObject\UI\CustomDefault</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAI.cpp">
+      <Filter>Fichiers sources\GameObject\GameBody\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameAssets.cpp">
+      <Filter>Fichiers sources\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Fichiers sources\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Damager.cpp">
+      <Filter>Fichiers sources\GameObject\GameBody</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>Fichiers sources\GameObject\GameBody\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseSceneManager.cpp">
+      <Filter>Fichiers sources\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Potion.cpp">
+      <Filter>Fichiers sources\GameObject\GameBody\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="RockyPassStage.cpp">
+      <Filter>Fichiers sources\GameObject\GameBody\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="LightningWarrior.cpp">
+      <Filter>Fichiers sources\GameObject\GameBody\Fighter</Filter>
+    </ClCompile>
+    <ClCompile Include="UITitleBackground.cpp">
+      <Filter>Fichiers sources\GameObject\UI\Title</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ApplicationInput.h">
+      <Filter>Fichiers sources\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseInput.h">
+      <Filter>Fichiers sources\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlsInput.h">
+      <Filter>Fichiers sources\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MainCamera.h">
+      <Filter>Fichiers sources\GameObject\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugInput.h">
+      <Filter>Fichiers sources\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPauseMenu.h">
+      <Filter>Fichiers sources\GameObject\UI\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="UIStageHUD.h">
+      <Filter>Fichiers sources\GameObject\UI\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCamera.h">
+      <Filter>Fichiers sources\GameObject\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Fichiers sources\GameObject\GameBody\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Fichiers sources\GameObject\GameBody\Fighter</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Fichiers sources\GameObject\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="FireWarrior.h">
+      <Filter>Fichiers sources\GameObject\GameBody\Fighter</Filter>
+    </ClInclude>
+    <ClInclude Include="UIStagePage.h">
+      <Filter>Fichiers sources\GameObject\UI\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="StageManager.h">
+      <Filter>Fichiers sources\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleManager.h">
+      <Filter>Fichiers sources\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UITextList.h">
+      <Filter>Fichiers sources\GameObject\UI\CustomDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="UITitlePage.h">
+      <Filter>Fichiers sources\GameObject\UI\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDefaultButton.h">
+      <Filter>Fichiers sources\GameObject\UI\CustomDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDefaultCursor.h">
+      <Filter>Fichiers sources\GameObject\UI\CustomDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAI.h">
+      <Filter>Fichiers sources\GameObject\GameBody\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameAssets.h">
+      <Filter>Fichiers sources\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSettings.h">
+      <Filter>Fichiers sources\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.h">
+      <Filter>Fichiers sources\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Damager.h">
+      <Filter>Fichiers sources\GameObject\GameBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Fichiers sources\GameObject\GameBody\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseSceneManager.h">
+      <Filter>Fichiers sources\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Potion.h">
+      <Filter>Fichiers sources\GameObject\GameBody\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="RockyPassStage.h">
+      <Filter>Fichiers sources\GameObject\GameBody\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="LightningWarrior.h">
+      <Filter>Fichiers sources\GameObject\GameBody\Fighter</Filter>
+    </ClInclude>
+    <ClInclude Include="UITitleBackground.h">
+      <Filter>Fichiers sources\GameObject\UI\Title</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

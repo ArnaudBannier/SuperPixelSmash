@@ -1,0 +1,12 @@
+{
+    "texture": "Side_impact.dat",
+    "geometry": {
+        "rowCount": 1,
+        "colCount": 5,
+        "width": 54,
+        "height": 53
+    },
+    "parts": [
+        {"name": "Side_impact", "frames": [0,1,2,3,4]}
+    ]
+}

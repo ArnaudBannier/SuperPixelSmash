@@ -1,0 +1,19 @@
+{
+    "texture": "Golem_blue.dat",
+    "geometry": {
+        "rowCount": 9,
+        "colCount": 10,
+        "width": 100,
+        "height": 100
+    },
+    "parts": [
+        {"name": "Idle", "frames": [0,1,2,3]},
+        {"name": "Glowing", "frames": [10,11,12,13,14,15,16,17]},
+        {"name": "ArmAttack", "frames": [20,21,22,23,24,25,26,27,28,28,28,46,45,44,43,42,41,40]},
+        {"name": "Defend", "frames": [30,31,32,33,34,35,36,37]},
+        {"name": "Melee", "frames": [40,41,42,43,44,45,46]},
+        {"name": "ArmorBuff", "frames": [50,51,52,53,54,55,56,57,58,59]},
+        {"name": "Dying", "frames": [60,61,62,63,64,65,66,67,68,69,70,71,72,73]},
+        {"name": "Create", "frames": [83,82,81,80,79,78,77,76,75,74,73,72,71,70]}
+    ]
+}

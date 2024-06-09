@@ -1,0 +1,33 @@
+{
+    "texture": "Metal_bladekeeper_2.dat",
+    "geometry": {
+        "rowCount": 15,
+        "colCount": 8,
+        "width": 288,
+        "height": 128,
+        "border": 0
+    },
+    "parts": [
+        {"name": "Idle", "frames": [0,1,2,3,4,5,6,7]},
+        {"name": "Running", "frames": [8,9,10,11,12,13,14,15]},
+        {"name": "Skidding", "frames": [11]},
+        {"name": "JumpUp", "frames": [16,17,18]},
+        {"name": "JumpTop", "frames": [19,20,21]},
+        {"name": "JumpDown", "frames": [22,23,24]},
+        {"name": "Attack1", "frames": [25,26,27,28]},
+        {"name": "Attack1End", "frames": [29,30]},
+        {"name": "Attack2", "frames": [31,32]},
+        {"name": "Attack2End", "frames": [33,34]},
+        {"name": "Attack3", "frames": [35,36,37,38,39,40,41,42,43,44,45,46]},
+        {"name": "AttackAir", "frames": [47,48,49,50,51,52,53,54]},
+        {"name": "SmashStart", "frames": [55,56,57,58,59,59]},
+        {"name": "SmashHold", "frames": [58,58,59,59]},
+        {"name": "SmashRelease", "frames": [58,58,59,59,58,58,59,59,60,61]},
+        {"name": "DefendStart", "frames": [62,63,64]},
+        {"name": "Defend", "frames": [65]},
+        {"name": "Roll", "frames": [66,67,68,69,70,71,72]},
+        {"name": "TakeHit", "frames": [73,74,75,76,77,78]},
+        {"name": "Special", "frames": [79,80,81,82,83,84,85]},
+        {"name": "Introduction", "frames": [25,26,27,28,31,32,35,36,37,38,39,40,41,42,43,44,45,46]}
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "texture": "UI_stages.dat",
+    "geometry": {
+        "rowCount": 1,
+        "colCount": 2,
+        "width": 320,
+        "height": 180
+    },
+    "parts": [
+        {"name": "Stages", "frames": [0,1]}
+    ]
+}

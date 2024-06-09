@@ -1,0 +1,28 @@
+{
+    "texture": "UI_controller.dat",
+    "geometry": {
+        "rowCount": 24,
+        "colCount": 9,
+        "width": 16,
+        "height": 16
+    },
+    "parts": [
+        {"name": "ButtonsDown", "frames": [0,1,2,3]},
+        {"name": "ButtonsUp", "frames": [5,6,7,8]},
+        {"name": "ButtonA", "frames": [5, 0]},
+        {"name": "ButtonB", "frames": [6, 1]},
+        {"name": "ButtonX", "frames": [7, 2]},
+        {"name": "ButtonY", "frames": [8, 3]},
+        {"name": "ButtonR", "frames": [63, 72]},
+        {"name": "ButtonL", "frames": [64, 73]},
+        {"name": "StickL", "frames": [9, 18]},
+        {"name": "StickLU", "frames": [10, 19]},
+        {"name": "StickLR", "frames": [11, 20]},
+        {"name": "StickLD", "frames": [12, 21]},
+        {"name": "StickLL", "frames": [13, 22]},
+        {"name": "StickLX", "frames": [14, 23]},
+        {"name": "StickLY", "frames": [15, 24]},
+        {"name": "Start", "frames": [68, 77]}
+
+    ]
+}

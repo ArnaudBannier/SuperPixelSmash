@@ -1,0 +1,33 @@
+{
+    "texture": "Leaf_ranger_1.dat",
+    "geometry": {
+        "rowCount": 15,
+        "colCount": 8,
+        "width": 288,
+        "height": 128,
+        "border": 0
+    },
+    "parts": [
+        {"name": "Idle", "frames": [0,1,2,3,4,5,6,7,8,9,10,11]},
+        {"name": "Running", "frames": [12,13,14,15,16,17,18,19,20,21]},
+        {"name": "Skidding", "frames": [32]},
+        {"name": "JumpUp", "frames": [22,23,24]},
+        {"name": "JumpTop", "frames": [25,26,27,28]},
+        {"name": "JumpDown", "frames": [29,30,31]},
+        {"name": "Land", "frames": [0]},
+        {"name": "Attack1", "frames": [32,33,34,35,36,37,38,39,40]},
+        {"name": "Attack1End", "frames": [41]},
+        {"name": "Attack3", "frames": [68,42,43,44,45,46,47,48,49,50,51,52,53,54]},
+        {"name": "Attack2End", "frames": [68]},
+        {"name": "Attack2", "frames": [55,56,57,58,59,60,61,62,63,64,65,66,67]},
+        {"name": "AttackAir", "frames": [69,70,71,72,73,74,75,76,77,78]},
+        {"name": "SmashStart", "frames": [79,80,81,82,83,84]},
+        {"name": "SmashHold", "frames": [85,86,87]},
+        {"name": "SmashRelease", "frames": [88,89,90,91,92,93,94,95]},
+        {"name": "StartDefend", "frames": [96,97,98,99,100,101,102]},
+        {"name": "Defend", "frames": [103]},
+        {"name": "Roll", "frames": [104,105,106,107,108,109,110,111]},
+        {"name": "TakeHit", "frames": [112,113,114,115,116,117]},
+        {"name": "Introduction", "frames": [85,86,87,88,89,90,91,92,93,94,95]}
+    ]
+}

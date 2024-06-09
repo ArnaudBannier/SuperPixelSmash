@@ -1,0 +1,12 @@
+{
+    "texture": "Power.dat",
+    "geometry": {
+        "rowCount": 1,
+        "colCount": 7,
+        "width": 140,
+        "height": 50
+    },
+    "parts": [
+        {"name": "Power", "frames": [0,1,2,3,4,5,6]}
+    ]
+}

@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\GameObject">
+      <UniqueIdentifier>{bb672c8b-b88a-4ba9-aba8-385d1d60f510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GameObject\UI">
+      <UniqueIdentifier>{603c2f49-22ef-455e-b918-2ab315557e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GameObject\UI\Interaction">
+      <UniqueIdentifier>{62e38d5e-87a8-4ff6-8f94-02ca56523b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GameObject\UI\Visual">
+      <UniqueIdentifier>{9e5df6e8-d0a2-4e46-89fe-33d772a68188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GameObject\UI\Base">
+      <UniqueIdentifier>{c3bf582e-5d9a-4057-aed5-d2800fb20fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Input">
+      <UniqueIdentifier>{b070d8b9-ab5f-493a-8621-989cd1a15044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Rendering">
+      <UniqueIdentifier>{c9e974f3-19b6-4cba-a8ee-59eae91ebbda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Rendering\Animation">
+      <UniqueIdentifier>{37487453-e75d-4480-aecd-24c3455f178f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Scene">
+      <UniqueIdentifier>{c7913bb2-5b6b-4695-bb91-65c3a77806cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Utils">
+      <UniqueIdentifier>{8770df87-f67c-412f-a5a3-06230d7f6680}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h">
+      <Filter>Fichiers sources\Rendering\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAnim.h">
+      <Filter>Fichiers sources\Rendering\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Fichiers sources\Rendering\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="LerpAnim.h">
+      <Filter>Fichiers sources\Rendering\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="EasingFct.h">
+      <Filter>Fichiers sources\Rendering\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAnimator.h">
+      <Filter>Fichiers sources\GameObject\UI\Visual</Filter>
+    </ClInclude>
+    <ClInclude Include="UIBaseList.h">
+      <Filter>Fichiers sources\GameObject\UI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>Fichiers sources\GameObject\UI\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="UICanvas.h">
+      <Filter>Fichiers sources\GameObject\UI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UIFillRect.h">
+      <Filter>Fichiers sources\GameObject\UI\Visual</Filter>
+    </ClInclude>
+    <ClInclude Include="UIGridLayout.h">
+      <Filter>Fichiers sources\GameObject\UI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UIImage.h">
+      <Filter>Fichiers sources\GameObject\UI\Visual</Filter>
+    </ClInclude>
+    <ClInclude Include="UIItemList.h">
+      <Filter>Fichiers sources\GameObject\UI\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="UIObject.h">
+      <Filter>Fichiers sources\GameObject\UI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UISelectable.h">
+      <Filter>Fichiers sources\GameObject\UI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UISelectableGroup.h">
+      <Filter>Fichiers sources\GameObject\UI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Fichiers sources\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBody.h">
+      <Filter>Fichiers sources\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Fichiers sources\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Fichiers sources\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UIInput.h">
+      <Filter>Fichiers sources\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputGroup.h">
+      <Filter>Fichiers sources\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Fichiers sources\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Gizmos.h">
+      <Filter>Fichiers sources\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Fichiers sources\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Fichiers sources\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Fichiers sources\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
+    <ClInclude Include="cJSON.h">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Fichiers sources\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="UIText.h">
+      <Filter>Fichiers sources\GameObject\UI\Visual</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Fichiers sources\Rendering\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnim.cpp">
+      <Filter>Fichiers sources\Rendering\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Fichiers sources\Rendering\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="EasingFct.cpp">
+      <Filter>Fichiers sources\Rendering\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheet.cpp">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="UIAnimator.cpp">
+      <Filter>Fichiers sources\GameObject\UI\Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="UIBaseList.cpp">
+      <Filter>Fichiers sources\GameObject\UI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>Fichiers sources\GameObject\UI\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="UICanvas.cpp">
+      <Filter>Fichiers sources\GameObject\UI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UIFIllRect.cpp">
+      <Filter>Fichiers sources\GameObject\UI\Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="UIGridLayout.cpp">
+      <Filter>Fichiers sources\GameObject\UI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UIImage.cpp">
+      <Filter>Fichiers sources\GameObject\UI\Visual</Filter>
+    </ClCompile>
+    <ClCompile Include="UIItemList.cpp">
+      <Filter>Fichiers sources\GameObject\UI\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="UIObject.cpp">
+      <Filter>Fichiers sources\GameObject\UI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UISelectable.cpp">
+      <Filter>Fichiers sources\GameObject\UI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UISelectableGroup.cpp">
+      <Filter>Fichiers sources\GameObject\UI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Fichiers sources\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBody.cpp">
+      <Filter>Fichiers sources\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Fichiers sources\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Fichiers sources\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UIInput.cpp">
+      <Filter>Fichiers sources\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputGroup.cpp">
+      <Filter>Fichiers sources\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Fichiers sources\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Gizmos.cpp">
+      <Filter>Fichiers sources\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Fichiers sources\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Fichiers sources\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Fichiers sources\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cJSON.c">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Fichiers sources\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="UIText.cpp">
+      <Filter>Fichiers sources\GameObject\UI\Visual</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

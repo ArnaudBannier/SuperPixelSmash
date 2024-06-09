@@ -1,0 +1,15 @@
+{
+    "texture": "UI_team_crystal.dat",
+    "geometry": {
+        "rowCount": 4,
+        "colCount": 11,
+        "width": 14,
+        "height": 14
+    },
+    "parts": [
+        {"name": "Crystal0", "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9,10,10,10,10,10]},
+        {"name": "Crystal1", "frames": [11,12,13,14,15,16,17,18,19,20,21,21,21,21,21]},
+        {"name": "Crystal2", "frames": [22,23,24,25,26,27,28,29,30,31,32,32,32,32,32]},
+        {"name": "Crystal3", "frames": [33,34,35,36,37,38,39,40,41,42,43,43,43,43,43]}
+    ]
+}

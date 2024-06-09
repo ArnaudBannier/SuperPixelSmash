@@ -1,0 +1,12 @@
+{
+    "texture": "VFX_dust.dat",
+    "geometry": {
+        "rowCount": 1,
+        "colCount": 7,
+        "width": 18,
+        "height": 13
+    },
+    "parts": [
+        {"name": "Effect", "frames": [0,1,2,3,4,5,6]}
+    ]
+}

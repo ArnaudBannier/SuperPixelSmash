@@ -1,0 +1,12 @@
+{
+    "texture": "Potion_effect_2.dat",
+    "geometry": {
+        "rowCount": 7,
+        "colCount": 1,
+        "width": 64,
+        "height": 32
+    },
+    "parts": [
+        {"name": "Heal", "frames": [0,1,2,3,4,5,6]}
+    ]
+}

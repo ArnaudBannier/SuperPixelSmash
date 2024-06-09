@@ -1,0 +1,12 @@
+{
+    "texture": "Lightning.dat",
+    "geometry": {
+        "rowCount": 1,
+        "colCount": 10,
+        "width": 64,
+        "height": 128
+    },
+    "parts": [
+        {"name": "Lightning", "frames": [0,1,2,3,4,5,6,7,8,9]}
+    ]
+}

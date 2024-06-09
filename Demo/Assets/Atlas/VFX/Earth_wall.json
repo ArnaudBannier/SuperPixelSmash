@@ -1,0 +1,13 @@
+{
+    "texture": "Earth_wall.dat",
+    "geometry": {
+        "rowCount": 4,
+        "colCount": 4,
+        "width": 48,
+        "height": 48,
+        "spacing": 0
+    },
+    "parts": [
+        {"name": "EarthWall",  "frames": [1,2,3,4,4,4,4,4,4,4,4,5,6,7,8,9,10,11,12,13]}
+    ]
+}

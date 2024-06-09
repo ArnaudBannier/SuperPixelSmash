@@ -1,0 +1,12 @@
+{
+    "texture": "Dust_4.dat",
+    "geometry": {
+        "rowCount": 1,
+        "colCount": 7,
+        "width": 15,
+        "height": 11
+    },
+    "parts": [
+        {"name": "Effect", "frames": [0,1,2,3,4,5,6]}
+    ]
+}

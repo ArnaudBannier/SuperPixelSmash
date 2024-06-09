@@ -1,0 +1,16 @@
+{
+    "texture": "UI_fighters.dat",
+    "geometry": {
+        "rowCount": 2,
+        "colCount": 4,
+        "width": 64,
+        "height": 64,
+        "border": 0
+    },
+    "parts": [
+        {"name": "FireKnight", "frames": [0,4]},
+        {"name": "WaterPriestess", "frames": [1,5]},
+        {"name": "LeafRanger", "frames": [2,6]},
+        {"name": "MetalBladekeeper", "frames": [3,7]}
+    ]
+}

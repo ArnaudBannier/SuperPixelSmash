@@ -1,0 +1,43 @@
+{
+    "texture": "Fire_warrior_boost.dat",
+    "geometry": {
+        "rowCount": 25,
+        "colCount": 16,
+        "width": 144,
+        "height": 64,
+        "spacingY": 16
+    },
+    "parts": [
+        {"name": "Idle",  "frames": [0,1,2,3,4,5,6,7]},
+        {"name": "Run",   "frames": [16,17,18,19,20,21,22,23]},
+        {"name": "Walk",  "frames": [32,33,34,35,36,37,38,39]}, 
+        {"name": "Dash",  "frames": [48,49,50,51,52,53,54]}, 
+        {"name": "Slide", "frames": [64,65,66,67,68,69,70]}, 
+        {"name": "Roll",  "frames": [80,81,82,83,84,85,86]},
+        {"name": "JumpUp", "frames": [96,97,98]},
+        {"name": "JumpTop", "frames": [112,113,114]},
+        {"name": "JumpDown", "frames": [128,129,130]},
+        {"name": "AttackAir", "frames": [144,144,145,146,147,147,148,148]},
+        {"name": "Attack1", "frames": [160,160,161,162,163,163]},
+        {"name": "Attack2", "frames": [176,176,177,178,179,179]},
+        {"name": "Attack3", "frames": [192,192,193,194,195,196,196]},
+        {"name": "DefendStart", "frames": [208]},
+        {"name": "Defend", "frames": [209,210,211,212,213,214]},
+        {"name": "Block", "frames": [224,225,226,227,228,229]},
+        {"name": "CrouchStart", "frames": [240]},
+        {"name": "Crouch", "frames": [241,242,243]},
+        {"name": "CrouchEnd", "frames": [240]},
+        {"name": "AttackCrouch", "frames": [256,257,258,259,260]},
+        {"name": "Climb", "frames": [272,273,274,275,276,277,278,279]},
+        {"name": "CastSpell", "frames": [288,289,290,291,292,293,294,295,296]},
+        {"name": "Special", "frames": [304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319]},
+        {"name": "FireSwordIn", "frames": [320,321,322,323,324,325,326,327,328,329,330,331]},
+        {"name": "LedgeHang", "frames": [336,337,338,339]},
+        {"name": "LedgeClimb", "frames": [352,353,354,355,356]},
+        {"name": "TakeHit", "frames": [368,369,370,371,372]},
+        {"name": "Die", "frames": [389,390,391,392,393,394,395]},
+        {"name": "SmashStart", "frames": [304]},
+        {"name": "SmashHold", "frames": [305]},
+        {"name": "SmashRelease", "frames": [306,307,308,309,310,311,312,313,314,315,316,317,318,319]}
+    ]
+}

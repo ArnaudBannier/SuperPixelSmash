@@ -1,0 +1,12 @@
+{
+    "texture": "Hit_effect_01.dat",
+    "geometry": {
+        "rowCount": 1,
+        "colCount": 7,
+        "width": 48,
+        "height": 48
+    },
+    "parts": [
+        {"name": "Hit", "frames": [0,1,2,3,4,5]}
+    ]
+}

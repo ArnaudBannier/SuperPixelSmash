@@ -1,0 +1,16 @@
+{
+    "texture": "VFX_particles.dat",
+    "geometry": {
+        "rowCount": 1,
+        "colCount": 8,
+        "width": 8,
+        "height": 8
+    },
+    "parts": [
+        {"name": "Rock", "frames": [0]},
+        {"name": "Rock1", "frames": [1]},
+        {"name": "Rock2", "frames": [2]},
+        {"name": "Square", "frames": [3]},
+        {"name": "VerticalRay", "frames": [4]}
+    ]
+}
